@@ -11,6 +11,7 @@ gem 'pg', '~> 0.18'
 gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
+gem 'jquery-rails'
 
 gem 'nokogiri'
 gem 'clearance','~>1.15.1'
@@ -21,6 +22,7 @@ group :development, :test do
   gem 'byebug', platform: :mri
   gem 'minitest-rails'
   gem 'factory_girl_rails'
+  gem 'faker'
 end
 
 group :development do
